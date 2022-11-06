@@ -1,0 +1,29 @@
+.app_company .app_company_link {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.app_company .app_company_link .app_company_linkone,
+.app_company .app_company_link .app_company_linktow {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.app_company .app_company_link .app_company_linkone li a,
+.app_company .app_company_link .app_company_linktow li a,
+.app_navigation .app_nav_link li a {
+  margin-bottom: 15px;
+  display: block;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  width: fit-content;
+}
+.app_company .app_company_link .app_company_linkone li a:hover {
+  color: #fff;
+}
+.app_company .app_company_link .app_company_linktow li a:hover {
+  color: #fff;
+}
+@media (max-width: 991px) {
+  .app_company .app_company_link {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

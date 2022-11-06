@@ -1,0 +1,8 @@
+@media (max-width: 991px) {
+  .app_trusted .tru_img {
+    order: 1;
+  }
+  .app_trusted .tru_content {
+    order: 2;
+  }
+}

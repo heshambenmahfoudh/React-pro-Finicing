@@ -1,0 +1,94 @@
+.casestudy {
+  padding: 4rem 0;
+}
+.chead {
+  width: 40%;
+  vertical-align: middle;
+  margin: auto;
+}
+.chead h2 {
+  font-size: 30px;
+  margin-bottom: 1rem;
+  color: #306ee8;
+  text-align: center;
+}
+.chead p {
+  font-size: 15px;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+  text-align: center;
+  color: #9aa1a5;
+}
+.a-sclick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.a-sclick span {
+  margin-right: 5px;
+  padding: 11px 22px;
+  display: inline-block;
+  background: blue;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1.4px;
+  cursor: pointer;
+  transition-duration: all 0.5s ease;
+  user-select: none;
+}
+.a-sclick span:hover {
+  background: rgb(92, 92, 228);
+  transition-duration: all 0.5s ease;
+}
+.appslide {
+  display: flex;
+  overflow: scroll;
+  overflow: hidden;
+}
+.appslide::-webkit-scrollbar {
+  display: none;
+}
+.appslide .slide {
+  user-select: none;
+  padding: 0 15px;
+  min-width: 33.3333%;
+  transition: 3s;
+}
+.appslide .slide:hover {
+  cursor: pointer;
+}
+
+.appslide .slide .slide-text {
+  padding: 40px;
+  margin-top: -4px;
+  background: #fff;
+}
+
+.appslide .slide .slide-text h3 {
+  margin-bottom: 0.5rem;
+  font-size: 20px;
+  color: #000;
+  font-weight: normal;
+}
+.appslide .slide .slide-text p {
+  line-height: 1.5;
+  font-size: 15px;
+  color: #848d92;
+  margin-bottom: 1rem;
+}
+@media (max-width: 991px) {
+  .appslide .slide {
+    min-width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .appslide .slide {
+    min-width: 100%;
+  }
+  .chead {
+    width: 90%;
+  }
+}

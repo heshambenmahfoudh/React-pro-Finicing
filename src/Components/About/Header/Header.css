@@ -1,0 +1,34 @@
+.header_about {
+  background-color: #1d42c5;
+  height: calc(450px + 20px);
+  padding-top: 64px;
+  margin-top: -20px !important;
+  position: relative;
+  min-height: 470px;
+}
+
+.header_about .content {
+  text-align: center;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-55%, -50%);
+}
+.header_about .content h1 {
+  width: 100%;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .header_about .content h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .header_about {
+    height: calc(90vh);
+    min-height: 578px;
+    margin-top: -30px;
+  }
+}

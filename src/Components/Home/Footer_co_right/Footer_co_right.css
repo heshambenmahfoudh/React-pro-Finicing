@@ -1,0 +1,15 @@
+.c_right {
+  margin-top: 48px;
+}
+.c_right p {
+  margin-bottom: 16px;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+}
+.c_right p a {
+  color: rgba(255, 255, 255, 0.5);
+}
+.c_right p a:hover {
+  color: #fff;
+}

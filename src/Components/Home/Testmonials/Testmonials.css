@@ -1,0 +1,73 @@
+.testmonials {
+  padding: 4rem 0;
+}
+.thead {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.thead h2 {
+  color: #4455db;
+  font-size: 30px;
+}
+
+.app_test .app_test_content {
+  display: flex;
+  align-items: center;
+  overflow: scroll;
+  transition: 0.3s;
+  opacity: 0;
+  transform: translateX(-100vh);
+}
+.app_test .app_test_content::-webkit-scrollbar {
+  display: none;
+}
+.app_test .app_content {
+  padding: 0 10px;
+  display: flex;
+}
+.app_test .app_test_content.active {
+  transform: translateX(0);
+  min-width: 100%;
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.app_test .app_test_content img {
+  width: 50%;
+  height: 437px;
+}
+
+.app_test .app_test_content .app_content .text {
+  height: 437px;
+  padding: 90px;
+  background: #fff;
+}
+.app_test .app_test_content .app_content .text p {
+  font-size: 18px;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+.app_test .app_test_content .app_content .text h5 {
+  margin-top: 3rem;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+.app_test .app_test_content .app_content .text small {
+  font-size: 15px;
+  color: #8f979c;
+}
+
+@media (max-width: 991px) {
+  .app_test_content .app_content {
+    flex-direction: column;
+  }
+  .app_test .app_test_content .app_content img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  .app_test .app_test_content .app_content .text {
+    padding: 30px;
+    height: fit-content;
+  }
+}
