@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/React-pro-Finicing/static/css/main.97357d1f.css",
+    "main.js": "/React-pro-Finicing/static/js/main.4aec9146.js",
+    "static/media/img_5.jpg": "/React-pro-Finicing/static/media/img_5.b2a0f21b344008b3195a.jpg",
+    "static/media/img_4.jpg": "/React-pro-Finicing/static/media/img_4.439c6c732f2c3b8c81e6.jpg",
+    "static/media/img_2.jpg": "/React-pro-Finicing/static/media/img_2.c5f38d49e1afb6f6a9f5.jpg",
+    "static/media/img_3.jpg": "/React-pro-Finicing/static/media/img_3.ecc644734309deb3e1b9.jpg",
+    "static/media/img3.jpg": "/React-pro-Finicing/static/media/img3.c90e9117dace839dd568.jpg",
+    "static/media/img_6.jpg": "/React-pro-Finicing/static/media/img_6.8717873d842ce9dcc3e4.jpg",
+    "static/media/img_1.jpg": "/React-pro-Finicing/static/media/img_1.087fef1c7acb26ac4e1b.jpg",
+    "static/media/img1.jpg": "/React-pro-Finicing/static/media/img1.62392c7e149f9eb3eb07.jpg",
+    "static/media/img4.jpg": "/React-pro-Finicing/static/media/img4.1c1e4d40c15650123967.jpg",
+    "static/media/img2.jpg": "/React-pro-Finicing/static/media/img2.79713d7c00223eeb69a1.jpg",
+    "static/media/person_5.jpg": "/React-pro-Finicing/static/media/person_5.5c3e815eb035a371f1ad.jpg",
+    "static/media/person_4.jpg": "/React-pro-Finicing/static/media/person_4.ed30713b0d0a4b3633fe.jpg",
+    "static/media/person_2.jpg": "/React-pro-Finicing/static/media/person_2.9b17c1b26ac822b1c4c9.jpg",
+    "static/media/person_1.jpg": "/React-pro-Finicing/static/media/person_1.6d786a7147060c34eb9b.jpg",
+    "static/media/person_3.jpg": "/React-pro-Finicing/static/media/person_3.e80a35c662f6d1407602.jpg",
+    "index.html": "/React-pro-Finicing/index.html",
+    "main.97357d1f.css.map": "/React-pro-Finicing/static/css/main.97357d1f.css.map",
+    "main.4aec9146.js.map": "/React-pro-Finicing/static/js/main.4aec9146.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97357d1f.css",
+    "static/js/main.4aec9146.js"
+  ]
+}
