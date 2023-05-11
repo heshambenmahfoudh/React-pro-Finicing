@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from './Header/Header'
-import Contact_us from './Contact_us/Contact_us'
+import Header from '../Components/Contact/Header/Header'
+import Contact_us from '../Components/Contact/Contact_us/Contact_us'
 
 const Contact = () => {
   return (

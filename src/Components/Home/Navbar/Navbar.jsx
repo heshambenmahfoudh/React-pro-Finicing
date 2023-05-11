@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink , Link} from 'react-router-dom'
 import './Navbar.css'
 import { FaAngleDown, FaAngleUp, FaPhoneAlt } from 'react-icons/fa'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
@@ -29,12 +29,12 @@ const Navbar = () => {
           <NavLink to="/">Home</NavLink>
         </li>
         <li className="child">
-          <NavLink to="/">
+          <Link to="/">
             Pages{' '}
             <span className="icon">
               <FaAngleDown style={{ fontSize: '10px' }} />
             </span>
-          </NavLink>
+          </Link>
           <ul className="drop">
             <li>Finiching</li>
             <li>Blog single</li>

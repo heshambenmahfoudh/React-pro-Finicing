@@ -36,6 +36,7 @@
 .links_navbar li .active {
   color: #fff;
   font-size: 15px;
+  font-weight: 600
 }
 
 .links_navbar {
